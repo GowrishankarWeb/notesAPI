@@ -10,6 +10,8 @@ public class NoteRequest {
 	
 	private Long id;
 	
+	private String title;
+	
 	@NotBlank(message = "Note is required")
 	private String note;
 
